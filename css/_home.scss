@@ -1,0 +1,95 @@
+$font-family: Roboto;
+$font-style: normal;
+$font-weight: 500;
+$font-size: 15px;
+$line-height: 25px;
+$textColor: #fff;
+nav {
+  .navbar {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #013086;
+    opacity: 0;
+  }
+  .navbar-nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 30;
+    color: white;
+  }
+  .selectLanguage {
+    display: absolute;
+    top: 20px;
+    background-color: #013086;
+    border: 0;
+    font-family: $font-family;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    color: $textColor;
+  }
+  // .collapse {
+  //   position: absolute;
+  //   left: 0%;
+  //   right: 0%;
+  //   top: 1%;
+  //   bottom: 0%;
+  //   margin-right: 30%;
+  // }
+  li {
+    a .nav-link {
+      font-family: $font-family;
+      font-weight: $font-weight;
+      font-size: $font-size;
+      line-height: $line-height;
+    }
+  }
+}
+.innovationService {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  $font-family: Montserrat;
+  $font-style: normal;
+  $font-weight: 400;
+  $font-size: 65px;
+  $line-height: 79px;
+  $text-align: center;
+
+  $color: #ffffff;
+  .innovationService-Topic {
+    font-family: $font-family;
+    font-style: $font-style;
+    font-weight: $font-weight * 2; //800
+    font-size: $font-size;
+    line-height: $line-height;
+    text-align: $text-align;
+    color: $color;
+  }
+  
+}
+.innovationService-Script {
+  display: flex;
+  justify-content: center;
+  height: 66px;
+  width: 580px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+// a:hover {
+//   transition: border 0.2s ease-out;
+//   border-image-source: linear-gradient(90deg, #fff, rgba(39, 157, 216, 0));
+//   border-image-slice: 1;
+//   border-top: 0;
+//   border-left: 0;
+//   border-right: 0;
+//   border-bottom: 3px solid !important;
+// }
